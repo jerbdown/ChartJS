@@ -1,8 +1,4 @@
-var vis = d3.select("#graph")
-            .append("svg");
-var w = 900,
-         h = 400;
-     vis.attr("width", w)
-        .attr("height", h); vis.text("The Graph")
-        .select("#graph")
+var xScale = d3.scale.linear().
+  domain([0, 20]). // your data minimum and maximum
+  range([0, 100]); // the pixels to map to, e.g., the width of the diagram.
         
