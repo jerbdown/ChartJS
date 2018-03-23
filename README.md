@@ -1,3 +1,2 @@
-# ChartJS
+# D3
 
-bower install chart.js --save
